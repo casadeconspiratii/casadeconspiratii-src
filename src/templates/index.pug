@@ -15,23 +15,20 @@ html(lang="en")
 
     //- Content
     .mainContent
-      .container
-        img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")
-        h1.hero--title CEA MAI NECUNOSCUTA TRUPA DE RAP DIN ROMANIA
-        p Lansam in curand noul site. Stay tuned!
-        ul.iconlist
-          li
-            a(href='https://www.facebook.com/CasadeConspiratii/')
-              svg(width="20" height="20")
-                use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook")
-          li
-            a(href='https://www.instagram.com/casadeconspiratii/')
-              svg(width="20" height="20")
-                use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram")
-          li
-            a(href='https://www.youtube.com/channel/UCX3uz3inrbu2qWAdieRWCIw')
-              svg(width="20" height="20")
-                use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube")
+      section.section
+        .container
+          img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")
+          h1.hero--title Heading
+          p Paragraph
+
+      section.section
+        .container
+          img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")
+          h1 Heading
+          p Paragraph
 
     //- Footer
     footer
+      script(src='/assets/js/vendor/jquery-3.2.1.js')
+      script(src='/assets/js/vendor/jquery.mousewheel.js')
+      script(src='/assets/js/main.js')

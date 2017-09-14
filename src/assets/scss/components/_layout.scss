@@ -2,19 +2,14 @@
 Layout
 */
 
-// Full height hero
-@supports (display: flex) {
-	.topHero--full {
-			min-height: 100vh;
-			display: flex;
-			flex-direction: column;
-			justify-content: center
-	}
+.mainContent {
+	width: 200%;
+	display: flex;
 }
 
-.container {
-	max-width: 80em;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 0 auto;
+.section {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
 }
