@@ -3,8 +3,8 @@ Layout
 */
 
 .mainContent {
-	width: 200%;
-	display: flex;
+	display: block;
+	width: initial;
 }
 
 .section {
@@ -12,4 +12,11 @@ Layout
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+	.mainContent {
+		width: 200%;
+		display: flex;
+	}
 }
