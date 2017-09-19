@@ -10,11 +10,12 @@ html(lang="en")
   body
     include /includes/symbols.svg
 
-    //- Header
-    header
+    .wrapper
+      //- Header
+      header.mainHeader
+        include /layout/header.pug
 
-    //- Content
-    .mainContent
+      //- Content
       section.section
         .container
           img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")

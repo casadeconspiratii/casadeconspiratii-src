@@ -1,0 +1,66 @@
+/*
+Header
+*/
+
+.mainNav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  background-color: map-get($color, black);
+  padding: 1rem;
+  box-shadow: 0px 0 35px 5px rgba(0,0,0,.5);
+
+  &__hamburger {
+    margin-left: auto;
+    align-self: center;
+
+    a {
+      padding: .5rem;
+    }
+  }
+
+  &__list {
+    display: none;
+    justify-content: flex-end;
+    margin-top: auto;
+    align-self: center;
+
+    &--item {
+
+      &:not(:last-of-type) {
+        margin: .5rem 0;
+      }
+
+      a {
+        color: rgba(255,255,255,0.5);
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .mainNav {
+    height: 100%;
+    width: auto;
+    flex-direction: column;
+
+    &__hamburger {
+      margin-top: auto;
+      margin-left: 0;
+      text-align: center;
+      align-items: center;
+      align-self: initial;
+    }
+
+    &__list {
+      display: block;
+    }
+  }
+}
