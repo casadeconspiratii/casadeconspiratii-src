@@ -2,7 +2,13 @@
 Layout
 */
 
-.mainContent {
+.container {
+	max-width: 90%;
+	width: 100%;
+	margin: 2rem auto;
+}
+
+.wrapper {
 	display: block;
 	width: initial;
 }
@@ -15,8 +21,8 @@ Layout
 }
 
 @media screen and (min-width: 768px) {
-	.mainContent {
-		width: 200%;
+	.wrapper {
+		width: 300%;
 		display: flex;
 	}
 }
