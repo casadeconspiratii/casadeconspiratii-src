@@ -6,3 +6,32 @@
   list-style: none;
   padding: 0;
 }
+
+.img--responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+Grid helpers
+*/
+.d--flex {
+  display: flex !important;
+}
+
+.justify-content {
+
+    &--center {
+      justify-content: center;
+    }
+}
+
+.align {
+
+  &__items {
+
+    &--center {
+      align-items: center !important;
+    }
+  }
+}

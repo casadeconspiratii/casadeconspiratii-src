@@ -1,11 +1,14 @@
-// Normalize
+// Vendor
 @import "vendor/normalize";
+// @import "vendor/bootstrap/bootstrap-grid";
 
 // Core
 @import
 "base/vars",
 "base/core",
-"base/helpers";
+"base/helpers",
+"base/grid",
+"base/typography";
 
 // Components
 @import
