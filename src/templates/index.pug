@@ -9,23 +9,24 @@ html(lang="en")
 
   body
     include /includes/symbols.svg
-    .wrapper
-      .topHero--full
-        .text--center
-          img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")
-          h1.hero--title CEA MAI NECUNOSCUTA TRUPA DE RAP DIN ROMANIA
-          p Lansam in curand noul site. Stay tuned!
-          ul.iconlist
-            li
-              a(href='https://www.facebook.com/CasadeConspiratii/')
-                svg(width="20" height="20")
-                  use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook")
-            li
-              a(href='https://www.instagram.com/casadeconspiratii/')
-                svg(width="20" height="20")
-                  use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram")
-            li
-              a(href='https://www.youtube.com/channel/UCX3uz3inrbu2qWAdieRWCIw')
-                svg(width="20" height="20")
-                  use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube")
-      p.hero--band CASA DE CONSPIRATII - EST. 2009
+    .topHero--full
+      .text--center
+        img(src="/assets/img/logo.svg" width="90" height="90" alt="Casa de conspiratii logo")
+        h1.hero--title CEA MAI NECUNOSCUTA TRUPA DE RAP DIN ROMANIA
+        .container
+          .embed-responsive.embed-responsive--16by9
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/54zqT6Evrcw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+        ul.iconlist
+          li
+            a(href='https://www.facebook.com/CasadeConspiratii/')
+              svg(width="15" height="15")
+                use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook")
+          li
+            a(href='https://www.instagram.com/casadeconspiratii/')
+              svg(width="15" height="15")
+                use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram")
+          li
+            a(href='https://www.youtube.com/channel/UCX3uz3inrbu2qWAdieRWCIw')
+              svg(width="15" height="15")
+                use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube")
+        p.hero--band CASA DE CONSPIRATII - EST. 2009
