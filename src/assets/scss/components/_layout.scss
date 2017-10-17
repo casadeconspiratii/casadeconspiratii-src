@@ -3,29 +3,33 @@ Layout
 */
 
 .container {
-	max-width: 90%;
-	width: 100%;
+  max-width: 90%;
+  width: 100%;
 }
 
 .wrapper {
-	display: block;
-	width: initial;
+  display: block;
+  width: initial;
 }
 
 .section {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 
-	&:first-of-type {
-		margin-left: 86px;
-	}
+  &:first-of-type {
+    margin-left: 86px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-	.wrapper {
-		width: 300%;
-		display: flex;
-	}
+  .wrapper {
+    width: 300%;
+    display: flex;
+  }
+}
+
+.hr {
+  transform: rotate(-90deg);
 }
