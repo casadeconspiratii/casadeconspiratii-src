@@ -48,39 +48,21 @@ Header
 .profile {
   position: relative;
 
-  &__vifor {
-    
-    &--bio {
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
+  &__bio {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:hover {
+    .profile__bio {
+      opacity: 1;
     }
 
     img {
-      padding: 5rem;
+      opacity: .5;
     }
-  }
-
-  &__koleroo {
-
-    &--bio {
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    img {
-      padding: 5rem;
-    }
-  }
-}
-
-.profile__koleroo:hover {
-  
-  .profile__vifor--bio {
-    opacity: 1;
   }
 }
 
