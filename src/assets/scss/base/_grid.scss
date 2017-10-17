@@ -3,25 +3,3 @@ Grid system
 */
 
 @import "base/vars";
-
-.grid {
-	display: flex;
-	flex-wrap: wrap;
-	text-rendering: optimizespeed;
-	margin-right: ($gutter / -2 * 1px);
-  margin-left:  ($gutter / -2 * 1px);
-
-	&__col {
-
-		&--50 {
-			flex: 50%;
-		}
-	}
-}
-
-[class*='grid__col--'] {
-	position: relative;
-	width: 100%;
-	padding-right: ($gutter / 2 * 1px);
-	padding-left: ($gutter / 2 * 1px);
-}
