@@ -13,24 +13,21 @@ html(lang="en")
     .wrapper
       //- Header
       header.mainHeader
-        include /layout/header.pug
+        include /sections/header.pug
 
       .divider
         svg(width="10")
           use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#divider")
 
       //- Content
-      section.section
-        .container
-          img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")
-          h1.hero--title Heading
-          p Paragraph
+      .mainContent
 
-      section.section
-        .container
-          img(src="/assets/img/logo.svg" width="125" height="125" alt="Casa de conspiratii logo")
-          h1 Heading
-          p Paragraph
+        //- Videos
+        include /sections/videos.pug
+
+        .divider
+          svg(width="10")
+            use(xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#divider")
 
     //- Footer
     footer
