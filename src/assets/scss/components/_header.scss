@@ -2,6 +2,14 @@
 Header
 */
 
+.mainHeader {
+  section {
+    display: flex;
+    align-items: center;
+    margin-left: 86px;
+  }
+}
+
 .mainNav {
   display: flex;
   flex-direction: row;
